@@ -1,0 +1,157 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body
+{
+    background-image: url(th.jpg);
+    background-size:cover ;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.menu-bar
+{
+    background-color: rgb(170, 170, 224);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    
+}
+.menu-bar ul li
+{
+    width:100px ;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: rgba(19, 34, 235, 0.801);
+    border-radius: 4px;
+}
+.menu-bar.fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display:none;
+    
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:rgb(221, 152, 221);
+    margin-top: 10px;
+    margin-left: 10px;
+   
+   
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display:block;
+    margin:5px
+}
+.menu-bar ul li: hover.sub-menu-1 ul li
+{
+width: 50px;
+padding: 4px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 10px;
+text-align: left;
+}
+.menu-bar ul li: hover.sub-menu-1 ul li:last-child
+{
+border-bottom:none
+}
+.menu-bar ul li: hover.sub-menu-1 ul li a: hover
+{
+    color: #000;
+}
+.title H1
+{
+    color: blue;
+    text-align: center;
+    background: rgba(108, 245, 108, 0.918);
+    text-size-adjust: 13px;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family:sans-serif
+    
+}
+
+.section-gallery img
+{
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    display: block;
+    margin: 0px auto;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    right: 50%;
+    bottom:0px;
+        width: 20%;
+        display: block;
+        margin: 0px auto;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        border-radius: 10% ;
+        flex: content;  
+        text-transform: uppercase;
+    }
+    .contact
+    {
+     display: 0;
+        flex-direction: column;
+
+    }
+    .contact ul 
+    {
+       
+        
+                
+}
+.footer
+{
+   
+    border-radius:  10px;
+    font-size: 20px;
+    font-size: medium;
+    margin-top: 40px;
+    text-size-adjust: 13px;
+   text-align: center;
+   vertical-align: middle;
+   bottom: 2px;
+   position: fixed;
+   height: 40px;
+   width: 100%;
+   background-color: rgba(108, 245, 108, 0.918);
+        background-size: cover;
+        background-position: center;
+        color: blue;
+        text-align: center;
+        text-size-adjust: 20px;
+        text-transform: capitalize;
+        background-color: rgba(108, 245, 108, 0.918);
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+}
+    
